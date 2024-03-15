@@ -1,14 +1,50 @@
 const express = require('express');
 const app = express();
+const session = require('express-session');
 const path = require('path');
+const passport = require('passport');
+
+require('./auth');
 
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, '/views'));
 
+function isLoggedIn(req, res, next) {
+    req.user ? next() : res.sendStatus(401);
+}
+
 app.get('/', (req, res) => {
     res.render('home');
+});
+
+app.use(session({
+    secret: 'mysecret',
+    resave: false,
+    saveUninitialized: true,
+    cookie: { secure: false }
+}));
+app.use(passport.initialize());
+app.use(passport.session());
+app.get('/auth/google',
+  passport.authenticate('google', { scope:
+      [ 'email', 'profile' ] }
+));
+
+app.get( '/auth/google/callback',
+    passport.authenticate( 'google', {
+        successRedirect: '/auth/protected',
+        failureRedirect: '/auth/google/failure'
+}));
+
+app.get('/auth/google/failure',isLoggedIn, (req, res) => {
+    res.send('Something went wrong!');
+});
+
+app.get('/auth/protected',isLoggedIn, (req, res) => {
+    let name = req.user.displayName;
+    res.send(`Hello there ${name}`);
 });
 
 app.get('/solution1', (req, res) => {

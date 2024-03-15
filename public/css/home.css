@@ -138,6 +138,16 @@ hr {
     cursor: pointer;
 }
 
+#signup a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#login a {
+    color: #1290a4;
+    text-decoration: none;
+}
+
 #login {
     font-family: 'headings';
     font-size: larger;
@@ -208,7 +218,7 @@ hr {
 
 #portal2 button {
     color: white;
-    border: 1px solid #1290a4s;
+    border: 1px solid #1290a4;
     background-color: #1290a4;
 }
 
