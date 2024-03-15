@@ -21,6 +21,7 @@ body, ul {
 .heading-slogan h1{
     font-family: 'headings';
     font-size: 4rem;
+    /* width: 60%; */
 }
 
 .navbar {
@@ -32,16 +33,22 @@ body, ul {
     padding: 5px 0 5px 0;
 }
 
+.car{
+    z-index: 1;
+    display: absolute;
+}
 .logo img {
-    width: 50px;
+    margin-left: 50px;
+    width: 80px;
+    z-index: 1;
 }
 
 .description {
-    font-family: 'texts';
-    background: linear-gradient(to right, #ff0000, #e09f07);
+    /* background: linear-gradient(to right, #1290a4, 3); */
     -webkit-background-clip: text;
     background-clip: text;
-    color: transparent;
+    color: #1290a4;
+    /* color: transparent; */
 }
 
 #AIO-slogan {
@@ -97,11 +104,12 @@ hr {
 
 .video-tutorial {
     position: absolute;
+    z-index: -1;
     left: 0;
-    top: 50px;
+    top:0px;
     transform: translateX(840px) translateY(260px);
-    width: 500px;
-    height: 250px;
+    width: 100px;
+    height: 100px;
 }
 
 .video-tutorial iframe {
@@ -123,7 +131,7 @@ hr {
     font-size: larger;
     padding: 15px 80px;
     margin-right: 5px;
-    background-color: #f78625;
+    background-color: #1290a4;
     border: 1px solid #f78625;
     border-radius: 5%;
     color: white;
@@ -136,8 +144,8 @@ hr {
     padding: 15px 80px;
     margin-left: 5px;
     background-color: white;
-    color: #f78625;
-    border: 1px solid #f78625;
+    color: #1290a4;
+    border: 1px solid #1290a4;
     border-radius: 5%;
     cursor: pointer;
 }
@@ -163,8 +171,8 @@ hr {
 .card {
     transition: opacity 0.5s ease-in-out;
     margin: 8px;
-    background-color: #f78625;
-    border: 2px solid #f78625;
+    background-color: #1290a4;
+    border: 2px solid #1290a4s;
     padding: 10px;
     border-radius: 5%;
     text-align: center;
@@ -179,7 +187,7 @@ hr {
 #portal2 {
     font-family: 'subheadings';
     background-color: white;
-    color: #f78625;
+    color: #1290a4;
 }
 
 .cards-container .card img {
@@ -193,15 +201,15 @@ hr {
     border: 1px solid black;
     border-radius: 5%;
     padding: 10px;
-    color: #f78625;
+    color: #1290a4;
     cursor: pointer;
     margin-top: auto;
 }
 
 #portal2 button {
     color: white;
-    border: 1px solid #f78625;
-    background-color: #f78625;
+    border: 1px solid #1290a4s;
+    background-color: #1290a4;
 }
 
 .card h2 {
