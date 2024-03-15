@@ -130,6 +130,16 @@ hr {
     cursor: pointer;
 }
 
+#signup a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#login a {
+    color: #f78625;
+    text-decoration: none;
+}
+
 #login {
     font-family: 'headings';
     font-size: larger;
