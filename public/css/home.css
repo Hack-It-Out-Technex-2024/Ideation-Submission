@@ -144,7 +144,7 @@ hr {
 }
 
 #login a {
-    color: #f78625;
+    color: #1290a4;
     text-decoration: none;
 }
 
@@ -182,7 +182,7 @@ hr {
     transition: opacity 0.5s ease-in-out;
     margin: 8px;
     background-color: #1290a4;
-    border: 2px solid #1290a4s;
+    border: 2px solid #1290a4;
     padding: 10px;
     border-radius: 5%;
     text-align: center;
@@ -218,7 +218,7 @@ hr {
 
 #portal2 button {
     color: white;
-    border: 1px solid #1290a4s;
+    border: 1px solid #1290a4;
     background-color: #1290a4;
 }
 
