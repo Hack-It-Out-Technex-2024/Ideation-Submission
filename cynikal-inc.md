@@ -5,6 +5,8 @@
 
 ## Idea: `Comprehensive University Management System`
 
+## Project Link: https://github.com/criticic/cums-technex
+
 ## Problem
 Currently there exist multiple sources of information in IIT-BHU which are not interconnected, among which many a times a lot of information is paper based. This causes pointless duplication of work and a lot of time is wasted for the same.
 
