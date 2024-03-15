@@ -1,0 +1,13 @@
+Environmental Sustainability/Waste Management
+
+"FRIEND-IN-NEED"
+
+A social media/e-shopping app which allows users to borrow and lend used items, thereby promoting reusing of materials. 
+
+Users will be allowed to take images of miscellaneous items in their households such as screwdrivers, plastic items, utensils, containers etc, take their pictures and lend them for a very small security fee to other users. An algorithm will be used to match buyers and sellers. The users can specify the time frame (no.of days) for which they have lended that item, after which a "fine" will be deducted from the security fee. After the item is returned, the user can verify its condition and the remaining security deposit will be returned to the borrower. 
+
+The app can also be used to reuse plastic bags. 
+
+Users can sell plastic bags for a minimum fee to the application, the plastic bags could be placed in a specific waste-bin and collected from there to be used by someone else. This way we can create a "bank" for plastic bags, and also other sorts of plastic waste. A basic credit points system could be implemented to encourage people to contribute to the plastic bags bank; the points could be redeemed for discounts and vouchers.
+
+Finally, the social media aspect of the app can be used to encourage garbage cleaning. Users could take pictures of small scale garbage dumps near them and post them along with the location, so that people nearby can target such spots during cleanliness drives. In the bigger picture, however, the data sent by users could be used to train Machine Learning Algorithms to predict hotspots where people may litter. 
