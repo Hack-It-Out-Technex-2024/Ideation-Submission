@@ -41,7 +41,7 @@ NavNation is an innovative web application aimed at revolutionizing urban naviga
      
 4. Run the application:
    bash
-   node index.js
+   `node index.js`
    
 
 ## Usage
