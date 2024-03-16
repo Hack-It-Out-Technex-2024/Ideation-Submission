@@ -64,7 +64,7 @@ app.get('/addSpot', (req, res) => {
 });
 
 app.get('/solution3', (req, res) => {
-    res.render('solution3', {rand: num});
+    res.render('solution3');
 });
 
 app.get('/aboutUs', (req, res) => {
