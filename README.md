@@ -1,11 +1,7 @@
-# Ideation-Submission
-
-This repository contains the submission for the Ideation Round.
-
-## IIITN Devs Ideation:
+# IIITN Devs Ideation:
 https://drive.google.com/drive/folders/1oiRw6HRIz7PwmV43QSbNhKjgvhNDy5gd?usp=sharing
 
-# Smart City Solution: NavNation
+# Goal 3: Smart City Solution: NavNation
 
 ## Introduction
 NavNation is an innovative web application aimed at revolutionizing urban navigation and addressing key challenges faced in modern smart cities. By integrating advanced technologies and user-centric features, NavNation offers solutions to optimize commuting, parking, and traffic management, thereby enhancing overall urban mobility.
@@ -23,12 +19,12 @@ NavNation is an innovative web application aimed at revolutionizing urban naviga
 - *Database*: MongoDB
 - *Mapping and Routing*: Google Maps API
 - *Image Processing*: OpenCV
-- *Authentication and Authorization*: JWT (JSON Web Tokens)
+- *Authentication and Authorization*: Google Oauth 2.0
 
 ## Installation
 1. Clone the repository:
    bash
-   git clone https://github.com/your-username/navnation.git
+   git clone https://github.com/
    
 2. Install dependencies:
    bash
@@ -46,7 +42,7 @@ NavNation is an innovative web application aimed at revolutionizing urban naviga
      
 4. Run the application:
    bash
-   npm start
+   node index.js
    
 
 ## Usage
@@ -57,8 +53,10 @@ NavNation is an innovative web application aimed at revolutionizing urban naviga
   - Enhance road safety with speed monitoring and alerts.
 
 ## Contributors
-- John Doe (@johndoe)
-- Jane Smith (@janesmith)
+- Debdip Mukherjee
+- Akshat Gupta
+- Danish Ahmad
+- Shubh Samaiya
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
