@@ -3,13 +3,13 @@
     height: 750px;
    
     display: flex;
-    flex-direction: row;
+   flex-direction: row;
 }
 #mapdiv{
     width: 60%;
     height: 100%;
-  
 }
+
 #info{
     width: 40%;
     height: 100%;
@@ -17,6 +17,7 @@
     background-color: white;
     padding-left: 30px;
 }
+
  #swap{
     margin-bottom: 50px;
  }
