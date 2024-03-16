@@ -59,8 +59,8 @@ app.get('/findSpot', (req, res) => {
     res.render('findSpot');
 });
 
-app.get('/bookSpot', (req, res) => {
-    res.render('bookSpot');
+app.get('/addSpot', (req, res) => {
+    res.render('addSpot');
 });
 
 app.get('/solution3', (req, res) => {
