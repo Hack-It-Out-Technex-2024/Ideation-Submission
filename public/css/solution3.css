@@ -1,0 +1,16 @@
+
+h1{
+    text-align: center;
+}
+#warningimage{
+    margin-top: 50px;
+    height: 750px;
+    width: 500px;
+    
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

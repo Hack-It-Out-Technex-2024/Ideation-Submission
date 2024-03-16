@@ -84,8 +84,13 @@ app.get("/addSpot", (req, res) => {
   res.render("addSpot");
 });
 
+<<<<<<< HEAD
+app.get('/solution3', (req, res) => {
+    res.render('solution3');
+=======
 app.get("/solution3", (req, res) => {
   res.render("solution3");
+>>>>>>> 8b6ef2fe20ff0b383b51f4d220b74abe9ac3e309
 });
 
 app.get("/aboutUs", (req, res) => {

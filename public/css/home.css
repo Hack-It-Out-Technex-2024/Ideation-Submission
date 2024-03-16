@@ -292,7 +292,7 @@ footer {
     margin-right: 20px;
 }
 
-.contact-details .social-handles .icons img {
+.contact-details .social-handles #icons img {
     width: 50px;
     height: 50px;
     cursor: pointer;
@@ -444,3 +444,9 @@ footer {
         font-size: 18px;
     }
 }
+
+html {
+
+    scroll-behavior: smooth;
+    
+    }
