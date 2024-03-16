@@ -18,19 +18,19 @@ NavNation is an innovative web application aimed at revolutionizing urban naviga
 - *Frontend*: HTML, CSS, JavaScript
 - *Backend*: Node.js, Express.js
 - *Database*: MongoDB
-- *Mapping and Routing*: Google Maps API
+- *Mapping and Routing*: MapQuest, Leaflet
 - *Image Processing*: OpenCV
 - *Authentication and Authorization*: Google Oauth 2.0
 
 ## Installation
 1. Clone the repository:
    bash
-   git clone https://github.com/DebdipWritesCode/IITN-Devs-Ideation
+   `git clone https://github.com/DebdipWritesCode/IITN-Devs-Ideation`
    
 2. Install dependencies:
    bash
-   cd navnation
-   npm install
+   `cd navnation`
+   `npm install`
    
 3. Set up environment variables:
    - Create a .env file in the root directory.
