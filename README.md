@@ -2,6 +2,7 @@
 https://drive.google.com/drive/folders/1oiRw6HRIz7PwmV43QSbNhKjgvhNDy5gd?usp=sharing
 
 # Goal 3: Smart City Solution: NavNation
+[Check out our solution here][https://iitn-devs-ideation.onrender.com/]
 
 ## Introduction
 NavNation is an innovative web application aimed at revolutionizing urban navigation and addressing key challenges faced in modern smart cities. By integrating advanced technologies and user-centric features, NavNation offers solutions to optimize commuting, parking, and traffic management, thereby enhancing overall urban mobility.
@@ -24,7 +25,7 @@ NavNation is an innovative web application aimed at revolutionizing urban naviga
 ## Installation
 1. Clone the repository:
    bash
-   git clone https://github.com/
+   git clone https://github.com/DebdipWritesCode/IITN-Devs-Ideation
    
 2. Install dependencies:
    bash
@@ -35,10 +36,8 @@ NavNation is an innovative web application aimed at revolutionizing urban naviga
    - Create a .env file in the root directory.
    - Define the following variables:
      
-     PORT=3000
-     MONGODB_URI=mongodb://localhost:27017/navnation
-     JWT_SECRET=your_secret_key
-     GOOGLE_MAPS_API_KEY=your_google_maps_api_key
+     GOOGLE_CLIENT_ID = "433052903413-6q32cuq7e8u4lv82dr8j26esc61vhdl1.apps.googleusercontent.com"
+     GOOGLE_CLIENT_SECRET = "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"
      
 4. Run the application:
    bash
