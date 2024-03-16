@@ -33,10 +33,6 @@ body, ul {
     padding: 5px 0 5px 0;
 }
 
-.car{
-    z-index: 1;
-    display: absolute;
-}
 .logo img {
     margin-left: 50px;
     width: 80px;
@@ -93,6 +89,11 @@ hr {
     padding: 0 4em;
 }
 
+.hero {
+    display: flex;
+    position: relative;
+}
+
 .intro {
     width: 500px;
 }
@@ -100,26 +101,6 @@ hr {
 .intro p {
     font-family: "texts";
     font-weight: bold;
-}
-
-.video-tutorial {
-    position: absolute;
-    z-index: -1;
-    left: 0;
-    top:0px;
-    transform: translateX(840px) translateY(260px);
-    width: 100px;
-    height: 100px;
-}
-
-.video-tutorial iframe {
-    width: 100%;
-    height: 100%;
-}
-
-.video-tutorial h2 {
-    font-family: 'texts';
-    display: none;
 }
 
 .account-buttons {
@@ -158,6 +139,13 @@ hr {
     border: 1px solid #1290a4;
     border-radius: 5%;
     cursor: pointer;
+}
+
+.right-part img {
+    width: 600px;
+    bottom: -130px;
+    right: 5px;
+    position: absolute;
 }
 
 .portal-explore {
