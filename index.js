@@ -5,6 +5,9 @@ const path = require("path");
 const bodyParser = require("body-parser");
 const passport = require("passport");
 
+app.set("view engine", "ejs");
+app.set("views", path.join(__dirname, "/views"));
+
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use(express.static(path.join(__dirname, "public")));
@@ -84,17 +87,16 @@ app.get("/addSpot", (req, res) => {
   res.render("addSpot");
 });
 
-<<<<<<< HEAD
 app.get('/solution3', (req, res) => {
     res.render('solution3');
-=======
-app.get("/solution3", (req, res) => {
-  res.render("solution3");
->>>>>>> 8b6ef2fe20ff0b383b51f4d220b74abe9ac3e309
 });
 
 app.get("/aboutUs", (req, res) => {
   res.render("aboutUs");
+});
+
+app.get('/request', (req, res) => {
+    res.render('<h1>Your feedback has been received</h1>');
 });
 
 app.get("/contactUs", (req, res) => {
